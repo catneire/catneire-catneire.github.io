@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>NEOLAND School</title>
+
+    <!--Favicons-->
+    <link rel="shortcut icon" href="img/icons/icon.ico">
+
+    <!--build:css css/estilos.css-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--Tipografia-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+        <a href="index.html" class="header__logo__link"><img src="img/logo.svg" class="header__logo"/></a>
+
+        <nav class="header__nav">
+            <a href="#" class="header__nav__btn-menu"><i class="header__btn-menu__icon ion-android-close"></i></a>
+            <ul class="header__nav__menu">
+                <li class="header__nav__menu__item"><a href="index.html" class="header__nav__menu__item__link">Cursos</a></li>
+                <li class="header__nav__menu__item"><a href="index.html" class="header__nav__menu__item__link">Temarios</a></li>
+                <li class="header__nav__menu__item"><a href="about.html" class="header__nav__menu__item__link">Sobre nosotros</a></li>
+                <li class="header__nav__menu__item"><a href="about.html" class="header__nav__menu__item__link">Información</a></li>
+            </ul><!--end of header__nav__menu-->
+
+            <div class="header__nav__private">
+                <a href="login.html" class="header__nav__private__btn btn"><span>Acceso profesores</span></a>
+            </div><!--end of header__nav__private-->
+        </nav><!--end of header__nav-->
+        <div class="header__overlay"></div>
+    </header><!--end of header-->
+
+    <div class="hero">
+        <div class="hero__table">
+            <div class="hero__cell">
+                <h1 class="hero__title">Formación continuada online</h1>
+                <p class="hero__text">NEOLAND promueve la formación de profesionales del mundo digital.</p>
+
+                <h3 class="more-info__title">Asignatura Tecnología y Digitalización</h3>
+        
+                <a href="#" class="btn btn--white btn--shadow-primary hero__btn"><span>Accede al temario</span></a>
+            </div><!--end of hero__cell-->
+        </div><!--end of hero__table-->
+        
+        <a href="#" class="hero__btn-scroll btn-scroll" data-scroll="main">
+            <ion-icon class="hero__btn-scroll__icon" name="arrow-down-outline"></ion-icon></a>
+        <div class="hero__bg" style="background-image: url(img/hero_bg.jpg);"></div>
+    </div><!--end of hero-->
+
+    <div class="main">
+        <section class="section section--white">
+            <div class=" wrapper wrapper--wide">
+                <div class="flexbox">
+                    <div class="column--bar">
+                        <div class="bar">
+                            <h3 class="bar__title">Lenguajes de marcas</h3>
+                            <ul class="bar__list">
+                                <li class="bar__list__item"><a href="index.html" class="bar__list__link">Evolución de los lenguajes de marcas</a></li>
+                                <li class="bar__list__item is-active"><a href="estandares.html" class="bar__list__link">Estándares y organismos oficiales</a></li>
+                                <li class="bar__list__item"><a href="clasificacion.html" class="bar__list__link">Clasificación de los lenguajes de marcas</a></li>
+                                </li>
+                            </ul><!--end of bar__list-->
+
+                            <h3 class="bar__title">CSS</h3>
+                            <ul class="bar__list">
+                                <li class="bar__list__item"><a href="css.html" class="bar__list__link">Orígenes y diferencias entre CSS y SCSS</a></li>
+                            </ul><!--end of bar__list-->
+                        </div><!--end of bar-->
+                        <div class="bar__courses">
+                            <h2 class="title--special">Cursos <span class="">(26)</span></h2>
+                            <a href="#0" class="">Ver todos los cursos</a>
+                        </div><!--end of bar__courses-->
+                    </div><!--end of column--bar-->
+                    
+                    <div class="column--main">
+                        <h1 class="title--big">Asignatura Tecnología y Digitalización</h1>
+                        <h1>Clasificación de los lenguajes de marcas</h1>
+                        <h2>Tipos y clasificación de los más relevantes</h2>
+
+                        <table class="tg">
+                            <thead>
+                              <tr>
+                                <th class="tg-0lax">Tipo</th>
+                                <th class="tg-0lax">Descripción</th>
+                                <th class="tg-0lax">Ejemplo</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td class="tg-0lax"><span class="text__bold">Marcado de presentación</span></td>
+                                <td class="tg-0lax">	
+                                    Indica el formato del texto, es decir cómo  ha de presentarse el documento. Las <span class="text__bold">etiquetas de marcado suelen estar ocultas</span> al usuario.  Este tipo de lenguajes son los usados tradicionalmente en procesadores de texto y codifican como ha de presentarse el
+                                    documento. Por ejemplo, indicando que una determinada palabra debe presentarse en fuente itálica.</td>
+                                <td class="tg-0lax">Microsoft Word.</td>
+                              </tr>
+                              <tr>
+                                <td class="tg-0lax"><span class="text__bold">Marcado de Procedimiento</span></td>
+                                <td class="tg-0lax">	
+                                    Enfocado hacia la presentación del texto, sin embargo, las marcas que formatean el texto son visibles para el usuario y <span class="text__bold">permiten procesamiento</span> (realizar un conjunto de acciones) según el tipo de etiqueta. Las etiquetas se integran dentro de un marco que controla qué porciones de código se ejecuta.</td>
+                                <td class="tg-0lax">LaTeX, HTML</td>
+                              </tr>
+                              <tr>
+                                <td class="tg-0lax"><span class="text__bold">Marcado descriptivo o semántico</span></td>
+                                <td class="tg-0lax">Utiliza las marcas o etiquetas para describir los fragmentos de texto. Este tipo de lenguajes no definen qué se debe hacer con una sección del documento si no que las <span class="text__bold">marcas sirven para indicar qué es esa información</span>.</td>
+                                <td class="tg-0lax">XML</td>
+                              </tr>
+                            </tbody>
+                            </table>
+                    </div><!--end of column--main-->
+                </div><!--end of flexbox-->
+            </div><!--end of wrapper-->
+        </section><!--end of section-->
+    </div><!--end of main-->
+        
+    <footer class="footer">
+        <div class="footer__row">
+            <p class="footer__row__paragraph">2022 © NEOLAND Todos los derechos reservados</p>
+            <p class="footer__row__links"><a href="#0">Política de privacidad</a> | <a href="#0">Condiciones de uso y contratación de cursos</a> | <a href="contact.php">Aviso legal</a> | <a href="#0">Contacto</a></p>
+        </div><!--end of footer__row-->
+    </footer><!--end of footer-->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

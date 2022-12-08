@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>NEOLAND School</title>
+
+    <!--Favicons-->
+    <link rel="shortcut icon" href="img/icons/icon.ico">
+
+    <!--build:css css/estilos.css-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--Tipografia-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+        <a href="index.html" class="header__logo__link"><img src="img/logo.svg" class="header__logo"/></a>
+
+        <nav class="header__nav">
+            <a href="#" class="header__nav__btn-menu"><i class="header__btn-menu__icon ion-android-close"></i></a>
+            <ul class="header__nav__menu">
+                <li class="header__nav__menu__item"><a href="index.html" class="header__nav__menu__item__link">Cursos</a></li>
+                <li class="header__nav__menu__item"><a href="index.html" class="header__nav__menu__item__link">Temarios</a></li>
+                <li class="header__nav__menu__item"><a href="about.html" class="header__nav__menu__item__link">Sobre nosotros</a></li>
+                <li class="header__nav__menu__item"><a href="about.html" class="header__nav__menu__item__link">Información</a></li>
+            </ul><!--end of header__nav__menu-->
+
+            <div class="header__nav__private">
+                <a href="login.html" class="header__nav__private__btn btn"><span>Acceso profesores</span></a>
+            </div><!--end of header__nav__private-->
+        </nav><!--end of header__nav-->
+        <div class="header__overlay"></div>
+    </header><!--end of header-->
+
+    <div class="hero">
+        <div class="hero__table">
+            <div class="hero__cell">
+                <h1 class="hero__title">Formación continuada online</h1>
+                <p class="hero__text">NEOLAND promueve la formación de profesionales del mundo digital.</p>
+
+                <h3 class="more-info__title">Asignatura Tecnología y Digitalización</h3>
+        
+                <a href="#" class="btn btn--white btn--shadow-primary hero__btn"><span>Accede al temario</span></a>
+            </div><!--end of hero__cell-->
+        </div><!--end of hero__table-->
+        
+        <a href="#" class="hero__btn-scroll btn-scroll" data-scroll="main">
+            <ion-icon class="hero__btn-scroll__icon" name="arrow-down-outline"></ion-icon></a>
+        <div class="hero__bg" style="background-image: url(img/hero_bg.jpg);"></div>
+    </div><!--end of hero-->
+
+    <div class="main">
+        <section class="section section--white">
+            <div class=" wrapper wrapper--wide">
+                <div class="flexbox">
+                    <div class="column--bar">
+                        <div class="bar">
+                            <h3 class="bar__title">Lenguajes de marcas</h3>
+                            <ul class="bar__list">
+                                <li class="bar__list__item"><a href="index.html" class="bar__list__link">Evolución de los lenguajes de marcas</a></li>
+                                <li class="bar__list__item is-active"><a href="estandares.html" class="bar__list__link">Estándares y organismos oficiales</a></li>
+                                <li class="bar__list__item"><a href="clasificacion.html" class="bar__list__link">Clasificación de los lenguajes de marcas</a></li>
+                                </li>
+                            </ul><!--end of bar__list-->
+
+                            <h3 class="bar__title">CSS</h3>
+                            <ul class="bar__list">
+                                <li class="bar__list__item"><a href="css.html" class="bar__list__link">Orígenes y diferencias entre CSS y SCSS</a></li>
+                            </ul><!--end of bar__list-->
+                        </div><!--end of bar-->
+                        <div class="bar__courses">
+                            <h2 class="title--special">Cursos <span class="">(26)</span></h2>
+                            <a href="#0" class="">Ver todos los cursos</a>
+                        </div><!--end of bar__courses-->
+                    </div><!--end of column--bar-->
+                    
+                    <div class="column--main">
+                        <h1 class="title--big">Asignatura Tecnología y Digitalización</h1>
+                        <h1>Orígenes y diferencias entre CSS y SCSS</h1>
+                        <h2>Hojas de estilo CSS</h2>
+                        <p>La hoja de estilo en cascada (CSS, del inglés <span class="text__bold">Cascading Style Sheet</span>) define el aspecto visual de las páginas HTML. Al igual que una plantilla, el CSS <span class="text__bold">define el  diseño de cada elemento</span> de la página web: fuente, color de texto, fondo, etc. Un fichero con extensión ".css" es un fichero en lenguaje de hojas de estilo.</p>
+
+                        <p>La hoja de estilo CSS se desarrolló entre 1994 y 1995 por Lie y Bos que se unieron para tomar lo mejor de cada propuesta desarrollada anteriormente. En 1995, se decidió apostar por el desarrollo de CSS y lo añadió a su grupo de trabajo de HTML.</p>
+
+                        <p>A pesar de su gran utilidad, CSS tiene ciertos límites, que se hacen especialmente evidentes cuando queremos manejar gran cantidad de clases en páginas web extensas con multitud de componentes y módulos. Es ahí cuando entra en juego la utilidad y conveniencia de usar un preprocesador de CSS, como SASS o LESS.</p>
+
+                        <h2>Preprocesadores de CSS</h2>
+                        <p>Un preprocesador de CSS se puede definir como una herramienta que nos permite escribir pseudocódigo CSS que luego será compilado y se convertirá en CSS tal y como lo conocemos de forma habitual. Este pseudocódigo está formado por variables, condiciones, bucles o funciones, elementos habituales de cualquier lenguaje de programación. Por este motivo, podríamos decir que tenemos un <span class="text__bold">lenguaje de programación cuya misión es la de generar el código CSS</span>.</p>
+
+                        <p>Podemos afirmar que el uso de un preprocesador es un <span class="text__bold">proceso de dos pasos</span>. Durante el primero de ellos se crearían los estilos utilizando la sintaxis preprocesador, mientras que en el segundo paso se <span class="text__bold">compilaría</span> el archivo en tiempo de ejecución para generar el CSS definitivo. Es necesario generar un archivo CSS para que pueda ser <span class="text__bold">interpretado por el navegador</span>.</p>
+
+                        <blockquote><p>Los preprocesadores permiten usar características propias de los lenguajes de programación, como el <span class="text__bold">uso de variables, anidamiento, mixins y herencia</span>. También <span class="text__bold">permiten anidar selectores y clases</span>, de forma que evitamos tener que repetir constantemente los prefijos de alcance en los selectores CSS.</p></blockquote>
+
+                        <p>El objetivo final de los procesadores de CSS es el de disponer de un <span class="text__bold">código más limpio</span> que luego poder utilizar en las páginas webs que colocaremos en nuestros servidores, un código más sencillo de mantener y editar.</p>
+
+                        <h2>SCSS y Sass</h2>
+
+                        <p><span class="text__bold">Syntactically Awesome Style Sheets</span> (Sass) es un preprocesador que permite usar funciones que aún no existen en CSS, como el <span class="text__bold">uso de variables, anidamiento, mixins y herencia</span>, entre otras. También nos permite anidar selectores y clases, de forma que evitamos tener que repetir constantemente los prefijos de alcance en los selectores CSS. Algunos desarrolladores se refieren a Sass como “un CSS con superpoderes”, ya que las posibilidades que ofrece hacen mucho más fácil y entendible el desarrollo de la identidad gráfica de un sitio web.</p>
+
+                        <p>SASS es el pre-procesador y la sintaxis al completo, mientras que SCSS es la sintaxis de CSS pero con todas las ventajas de SASS.</p>
+
+                        <h2>Principales beneficios de utilizar preprocesadores de CSS</h2>
+
+                        <p>El uso de preprocesadores en nuestros proyectos aporta una serie de beneficios entre los que podemos destacar.</p>
+
+                        <ul>
+                            <li>Posibilidad de añadir funcionalidades adicionales que no se encuentran disponibles en archivos CSS tradicionales, como son el <span class="text__bold">uso de variables y lógica condicional</span>.</li>
+                            <li>Crearemos una hoja de estilos más limpia, consiguiendo a la vez que sea <span class="text__bold">más eficiente y fácil de mantener</span>.</li>
+                            <li>Ofrece la posibilidad de <span class="text__bold">reutilizar mucho código</span>, lo que se traduce en un ahorro de tiempo y trabajo.</li>
+                            <li>Los cambios serán mucho <span class="text__bold">más rápidos</span>, ya que únicamente deberemos cambiar el valor de alguna variable.</li>
+                            <li>Ayuda a crear código compatible con todos los navegadores, lo que supone una gran ayuda para los diseñadores de sitios web.</li>
+                            <li>Se crea una capa de abstracción, donde no trabajaremos directamente sobre nuestro archivo CSS, ofreciendo una <span class="text__bold">mayor seguridad</span>.</li>
+                            <li>Posibilidad de separación absoluta del proceso de desarrollo y producción.</li>
+                        </ul>
+                    </div><!--end of column--main-->
+                </div><!--end of flexbox-->
+            </div><!--end of wrapper-->
+            </section><!--end of section-->
+    </div><!--end of main-->
+        
+    <footer class="footer">
+        <div class="footer__row">
+            <p class="footer__row__paragraph">2022 © NEOLAND Todos los derechos reservados</p>
+            <p class="footer__row__links"><a href="#0">Política de privacidad</a> | <a href="#0">Condiciones de uso y contratación de cursos</a> | <a href="#0">Aviso legal</a> | <a href="#0">Contacto</a></p>
+        </div><!--end of footer__row-->
+    </footer><!--end of footer-->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

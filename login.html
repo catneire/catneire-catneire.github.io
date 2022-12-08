@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>NEOLAND School</title>
+
+    <!--Favicons-->
+    <link rel="shortcut icon" href="img/icons/icon.ico">
+
+    <!--build:css css/estilos.css-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--Tipografia-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__logo__link"><img src="img/logo.svg" class="header__logo"/></a>
+
+      <nav class="header__nav">
+        <a href="#" class="header__nav__btn-menu"><i class="header__btn-menu__icon ion-android-close"></i></a>
+
+        <ul class="header__nav__menu">
+          <li class="header__nav__menu__item"><a href="index.html" class="header__nav__menu__item__link">Cursos</a></li>
+          <li class="header__nav__menu__item"><a href="index.html" class="header__nav__menu__item__link">Temarios</a></li>
+          <li class="header__nav__menu__item"><a href="about.html" class="header__nav__menu__item__link">Sobre nosotros</a></li>
+          <li class="header__nav__menu__item"><a href="about.html" class="header__nav__menu__item__link">Información</a></li>
+        </ul><!--end of header__nav__menu-->
+
+        <div class="header__nav__private">
+          <a href="login.html" class="header__nav__private__btn btn"><span>Acceso profesores</span></a>
+        </div><!--end of header__nav__private-->
+      </nav><!--end of header__nav-->
+
+      <div class="header__overlay"></div>
+    </header><!--end of header-->
+
+    <div class="main">
+      <section class="section">
+        <header class="section__header">
+          <div class="section__wrapper">
+            <h1 class="title title--big">Acceso profesores</h1>
+          </div><!--end of section__wrapper-->
+        </header><!--end of section__header-->
+    
+        <div class="section__content">
+          <div class="section__wrapper">
+            <div class="login">
+              <div class="login__content">
+                <div class="login__col is-active">
+                  <div class="login__col__item">
+                    <h2 class="login__col__title">Iniciar sesión</h2>
+    
+                    <div class="form">
+                      <form action="home.php">
+                        <fieldset class="form__fieldset">
+                          <label for="formInputEmail" class="form__label">Email</label>
+                          <input type="text" id="formInputEmail" name="formInputEmail" class="form__input" placeholder="ejemplo@mail.com">
+                        </fieldset><!--end of form__fieldset-->
+    
+                        <fieldset class="form__fieldset">
+                          <label for="formInputPass" class="form__label">Contraseña</label>
+                          <input type="password" id="formInputPass" name="formInputPass" class="form__input" placeholder="···········">
+                        </fieldset><!--end of form__fieldset-->
+    
+                        <fieldset class="form__fieldset">
+                          <a href="#0" class="btn btn--shadow-primary btn--block"><span>Entrar</span></a>
+                        </fieldset><!--end of form__fieldset-->
+    
+                        <p><small><a href="#0">¿He olvidado mi contraseña?</a></small></p>
+                      </form>
+                    </div><!--end of form-->
+                  </div><!--end of login__col__item-->
+                </div><!--end of login__col-->
+    
+                <div class="login__col">
+                  <div class="login__col__item">
+                    <h2 class="login__col__title">¿No tienes usuario?</h2>
+                    <p class="login__col__paragraph">Accede para crear un nuevo usuario.</p>
+                    <a href="#0" class="btn btn--white btn--shadow-primary btn--block"><span>Regístrate</span></a>
+                  </div><!--end of login__col__item-->
+                </div><!--end of login__col-->
+              </div><!--end of login__content-->
+            </div><!--end of login-->
+          </div><!--end of section__wrapper-->
+        </div><!--end of section__content-->
+      </section><!--end of section-->
+    </div><!--end of main-->
+
+    <footer class="footer">
+        <div class="footer__row">
+            <p class="footer__row__paragraph">2022 © NEOLAND Todos los derechos reservados</p>
+            <p class="footer__row__links"><a href="#0">Política de privacidad</a> | <a href="#0">Condiciones de uso y contratación de cursos</a> | <a href="#0">Aviso legal</a> | <a href="#0">Contacto</a></p>
+        </div><!--end of footer__row-->
+    </footer><!--end of footer-->
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
